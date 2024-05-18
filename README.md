@@ -3,6 +3,21 @@
 # AIM:
 To develop a small bank application by declaring deposit() and withdrawal() as an abstract methods in the interface. 
 
+## ALGORITHM:
+### STEP 1. 
+Interface Bank: defines deposit and withdraw methods.
+### STEP 2. 
+Program class: implements Bank, manages deposit and withdrawal operations.
+### STEP 3. 
+Constructor: prompts user for deposit or withdrawal choice.
+### STEP 4. 
+deposit method: adds entered amount to balance, displays updated balance.
+### STEP 5. 
+withdraw method: subtracts entered amount from balance, displays updated balance.
+### STEP 6. 
+Main method: creates Program object, initiates banking operations based on user input.
+
+
 # PROGRAM:
 ```
 using System;
